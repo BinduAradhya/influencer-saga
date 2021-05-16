@@ -442,18 +442,18 @@ textarea {
 }
 
 @media (max-width: 892px) {
-  .grid-section-left > .grid-title {
+  .hero-section-left > .hero-title {
     font-size: 4.5rem;
   }
 }
 @media (max-width: 887px) {
-  .grid-section {
+  .hero-section {
     grid-template-columns: 1fr;
     justify-content: center;
     grid-gap: 20rem;
   }
   .dot,
-  .red-button {
+  .red-pill {
     display: none;
   }
   .add-to-cart {
@@ -487,5 +487,5 @@ textarea {
     content:'';
     display: none;
   }
-}
 
+}
